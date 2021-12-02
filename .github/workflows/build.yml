@@ -6,7 +6,7 @@ name: SonarCloud Scan
 
 jobs:
   sonarcloud:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - uses: actions/checkout@v2
     - name: SonarCloud Scan
